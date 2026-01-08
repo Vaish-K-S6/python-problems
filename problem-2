@@ -1,0 +1,19 @@
+Find the Sum of Digits of a Number
+Write a Python program that takes a positive integer as input and prints the sum of its digits.
+Take a number as input
+
+Logic:
+Repeat until the number becomes 0:
+Get last digit using % 10
+Add it to sum
+Remove last digit using // 10
+Print the final sum
+
+Solution:
+num = int(input())
+total = 0
+while num > 0:
+    digit = num % 10
+    total += digit
+    num = num // 10
+print(total)
