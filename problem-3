@@ -1,0 +1,6 @@
+Given a positive number n, count how many digits it has.
+
+Examples:
+7 → 1 digit
+123 → 3 digits
+5009 → 4 digits
