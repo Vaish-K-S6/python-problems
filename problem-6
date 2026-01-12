@@ -1,0 +1,16 @@
+Write a Python program that takes a positive integer as input and prints the number of digits in it.
+
+Hint:
+Start a counter at 0
+Repeat while the number is greater than 0
+Divide the number by 10
+Increase the counter
+The counter will be the number of digits
+
+Solution:
+num = int(input())
+count = 0
+while num > 0:
+    num = num // 10
+    count += 1
+print(count)
