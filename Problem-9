@@ -1,0 +1,22 @@
+Problem statement:
+Write a Python program that takes a positive integer as input and checks whether it is a prime number.
+
+Logic:
+If the number is less than or equal to 1 → not prime
+Check divisibility from 2 to n-1
+If divisible by any number → not prime
+
+Solution:
+num = int(input())
+is_prime = True
+if num <= 1:
+    is_prime = False
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+if is_prime:
+    print("Prime")
+else:
+    print("Not Prime")
