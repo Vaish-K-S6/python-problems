@@ -1,0 +1,14 @@
+Problem statement:
+Write a Python program that takes a non-negative integer as input and prints its factorial.
+
+Logic:
+Initialize fact = 1
+Multiply fact by numbers from 1 to n
+Print fact
+
+Solution:
+n = int(input())
+fact = 1
+for i in range(1, n + 1):
+    fact *= i
+print(fact)
