@@ -1,0 +1,16 @@
+Problem statement:
+Write a Python program that takes a single character as input and checks whether it is a vowel or a consonant.
+
+Logic:
+Convert the character to lowercase
+Check if it is in a, e, i, o, u
+If yes → Vowel
+Else → Consonant
+
+Solution:
+
+ch = input().lower()
+if ch in ['a', 'e', 'i', 'o', 'u']:
+    print("Vowel")
+else:
+    print("Consonant")
